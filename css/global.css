@@ -8,7 +8,7 @@
 :root {
 
     /* var(--dominantColor) !important; */
-    --dominantColor: #cc7e92;
+    --dominantColor: red;
 
     /* var(--secondaryColor) !important; */
     --secondaryColor: #f296ad;
