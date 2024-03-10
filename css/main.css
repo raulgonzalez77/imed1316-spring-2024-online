@@ -1,5 +1,22 @@
-.custom-color {
+html {
+    scroll-behavior: smooth;
+}
 
-    background-color: var(--dominantColor) !important;
-    height: 200px;
+body {
+    background-color: #ffffff;
+}
+
+h1,
+h2 {
+    color: var(--accentColor) !important;
+}
+
+.top-log {
+    height: auto;
+    font-weight: bold;
+    color: var(--dominantColor) !important;
+    font-size: 55px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    background-color: #ffffff;
 }
