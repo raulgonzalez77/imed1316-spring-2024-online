@@ -105,6 +105,18 @@ blockquote cite:before {
     content: "\2014 \2009";
 }
 
+.btn-success {
+    background-color: var(--dominantColor) !important;
+    border: 0px !important;
+    border: none !important;
+}
+
+.btn-primary {
+    background-color: var(--secondaryColor) !important;
+    border: 0px !important;
+    border: none !important;
+}
+
 /* ADD THE CLASS .custom-toggler TO THE HAMBURGUER MENU*/
 /*under main.css added*/
 
