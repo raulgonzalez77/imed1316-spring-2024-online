@@ -1,0 +1,9 @@
+@import "global.css";
+@import "main.css";
+
+.wrapper-body {
+    background-image: url("images/background-image.jpg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
