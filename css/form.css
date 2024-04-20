@@ -1,2 +1,13 @@
 @import "global.css";
 @import "main.css";
+
+.web-form {
+    width: 75%;
+    position: relative;
+    margin: auto;
+    background-color: #fffffd;
+    padding: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: var(--boxShadow) !important;
+}
