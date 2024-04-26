@@ -54,5 +54,5 @@
 }
 
 .content-table tbody tr:last-of-type {
-    background-color: var(--dominantColor) !important;
+    border-bottom: 3px solid var(--dominantColor) !important;
 }
