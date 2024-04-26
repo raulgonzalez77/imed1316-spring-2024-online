@@ -19,7 +19,7 @@
 }
 
 .fa-row-icon:hover {
-    transform: (1.1);
+    text-transform: (1.1);
 }
 
 .fa-row a {
@@ -27,4 +27,24 @@
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.first-paragraph-div {
+    position: relative;
+    background-color: #fffffd;
+    color: var(--dominantColor) !important;
+    font-weight: bold;
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 24px;
+    padding: 20px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.first-paragraph-img {
+    position: relative;
+    float: left;
+    padding-right: 18px;
 }
