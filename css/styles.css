@@ -17,3 +17,7 @@
     margin-bottom: 5px;
     margin-top: 10px;
 }
+
+.fa-row-icon:hover {
+    transform: (1.1);
+}
