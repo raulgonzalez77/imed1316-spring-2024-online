@@ -32,10 +32,10 @@
 .first-paragraph-div {
     position: relative;
     background-color: #fffffd;
-    color: var(--dominantColor) !important;
+    color: #000000;
     font-weight: bold;
-    font-family: "Protest Revolution", sans-serif;
-    font-size: 24px;
+    font-family: verdana;
+    font-size: 16px;
     padding: 20px;
     height: auto;
     margin: auto;
@@ -49,14 +49,24 @@
     padding-right: 18px;
 }
 
+@media(max-width:900px) {
+
+    .first-paragraph-img {
+        position: relative;
+        float: none;
+        padding-right: 0px;
+    }
+
+}
+
 
 .second-paragraph-div {
     position: relative;
     background-color: #fffffd;
-    color: var(--dominantColor) !important;
+    color: #000000;
     font-weight: bold;
-    font-family: "Protest Revolution", sans-serif;
-    font-size: 24px;
+    font-family: verdana;
+    font-size: 16px;
     padding: 20px;
     height: auto;
     margin: auto;
@@ -68,4 +78,14 @@
     position: relative;
     float: right;
     padding-left: 18px;
+}
+
+@media(max-width:900px) {
+
+    .second-paragraph-img {
+        position: relative;
+        float: none;
+        padding-left: 0px;
+    }
+
 }
