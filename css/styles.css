@@ -19,7 +19,7 @@
 }
 
 .fa-row-icon:hover {
-    text-transform: (1.1);
+    transform: scale(1.1);
 }
 
 .fa-row a {
