@@ -30,3 +30,17 @@
     margin: auto;
     text-align: center;
 }
+
+.content-table thead tr th {
+    background-color: var(--dominantColor) !important;
+    color: #ffffff;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
