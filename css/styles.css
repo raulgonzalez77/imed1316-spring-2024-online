@@ -21,3 +21,10 @@
 .fa-row-icon:hover {
     transform: (1.1);
 }
+
+.fa-row a {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
