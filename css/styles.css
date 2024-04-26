@@ -103,4 +103,14 @@
     border: 10px solid var(--secondaryColor) !important;
     margin: auto;
     clip-path: circle(50% at 50% 50%);
+    border-radius: 50%;
+}
+
+.card {
+    margin: 15px;
+    height: 350px;
+}
+
+.card a {
+    color: #020230;
 }
