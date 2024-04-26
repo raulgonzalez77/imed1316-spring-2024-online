@@ -128,3 +128,17 @@
 .cuadro {
     margin: 10px;
 }
+
+.slider-container {
+    background-color: var(--dominantColor) !important;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.main-slider {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+}
