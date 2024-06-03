@@ -95,6 +95,20 @@ $(document).ready(function () {
         }
     }
 
+    // Events
+    document.addEventListener("fullscreenchange", function () {
+        openFullscreen()
+    });
+    document.addEventListener("mozfullscreenchange", function () {
+        openFullscreen()
+    });
+    document.addEventListener("webkitfullscreenchange", function () {
+        openFullscreen()
+    });
+    document.addEventListener("msfullscreenchange", function () {
+        openFullscreen()
+    });
+
 
 
 
