@@ -26,14 +26,15 @@ $(document).ready(function () {
 
         if (video.paused) {
 
-            $(".content").removeClass("content-video");
-            $(".call-to-action").css('display', 'none');
+            $(".content").addClass("content-video");
+            $(".call-to-action").css('display', 'block');
 
         }
         else {
 
-            $(".content").addClass("content-video");
-            $(".call-to-action").css('display', 'block');
+            $(".content").removeClass("content-video");
+            $(".call-to-action").css('display', 'none');
+
         }
 
     }, false);
