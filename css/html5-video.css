@@ -1,0 +1,47 @@
+.content {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.content video {
+    width: 100%;
+    display: block;
+}
+
+/*
+  .content:before {
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.9);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+  }
+  */
+
+.content-video:before {
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.call-to-action {
+    color: #ffffff;
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 13%;
+    z-index: 9;
+
+}
+
+.btn {
+    background-color: #0a2140 !important;
+}
