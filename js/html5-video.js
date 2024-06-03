@@ -19,13 +19,29 @@ $(document).ready(function () {
     }, false);
 
 
+    /*
+        video.addEventListener("playing", (event) => {
+    
+            $(".content").removeClass("content-video");
+            $(".call-to-action").css('display', 'none');
+    
+        }, false);
+    */
 
-    video.addEventListener("playing", (event) => {
+    video.addEventListener("play", (event) => {
 
         $(".content").removeClass("content-video");
         $(".call-to-action").css('display', 'none');
 
-    }, false);
+    });
+
+
+    video.addEventListener("pause", (event) => {
+
+        $(".content").removeClass("content-video");
+        $(".call-to-action").css('display', 'none');
+
+    });
 
 
 
