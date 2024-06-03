@@ -1,9 +1,21 @@
 // A $( document ).ready() block.
 $(document).ready(function () {
 
-    //alert('test');
+    var video = document.getElementById('video');
 
-    //$(document).addClass('content'); //Re-add before
+    document.querySelector('video').addEventListener('click', function () {
+        if (video.paused) {
+
+            $(".content").addClass("content-video");
+            $(".call-to-action").css('display', 'block');
+        }
+        else {
+
+            $(".content").removeClass("content-video");
+            $(".call-to-action").css('display', 'none');
+        }
+
+    }, false);
 
     document.querySelector('video').addEventListener('ended', function () {
         //alert('Video has ended!');
@@ -24,6 +36,8 @@ $(document).ready(function () {
         $(".content").addClass("content-video");
         $(".call-to-action").css('display', 'block');
     });
+
+
 
 });
 
