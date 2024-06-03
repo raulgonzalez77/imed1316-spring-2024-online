@@ -23,8 +23,6 @@ $(document).ready(function () {
     /* */
     video.addEventListener("playing", (event) => {
 
-        clearTimeout(videoTimeout);
-
         $(".content").removeClass("content-video");
         $(".call-to-action").css('display', 'none');
 
@@ -37,8 +35,6 @@ $(document).ready(function () {
 
         $(".content").removeClass("content-video");
         $(".call-to-action").css('display', 'none');
-
-        clearTimeout(videoTimeout);
 
     });
 
@@ -56,8 +52,18 @@ $(document).ready(function () {
         var videoTimeout = setTimeout(delayContent, 3000);
 
         function delayContent() {
-            $(".content").addClass("content-video");
-            $(".call-to-action").css('display', 'block');
+
+            if (video.paused) {
+
+                $(".content").addClass("content-video");
+                $(".call-to-action").css('display', 'block');
+            }
+            else {
+
+                clearTimeout(videoTimeout);
+            }
+
+
         }
 
 
