@@ -20,7 +20,7 @@ $(document).ready(function () {
 
 
 
-    document.querySelector('player').addEventListener('click', function () {
+    document.querySelector('controls').addEventListener('click', function () {
         if (video.paused) {
 
             $(".content").removeClass("content-video");
