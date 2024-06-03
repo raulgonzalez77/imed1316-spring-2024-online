@@ -49,7 +49,7 @@ $(document).ready(function () {
         setTimeout(delayContent, 5000);
         */
 
-        var videoTimeout = setTimeout(delayContent, 3000);
+        var videoTimeout = setTimeout(delayContent, 4000);
 
         function delayContent() {
 
