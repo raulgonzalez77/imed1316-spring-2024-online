@@ -6,13 +6,14 @@ $(document).ready(function () {
     document.querySelector('video').addEventListener('click', function () {
         if (video.paused) {
 
-            $(".content").addClass("content-video");
-            $(".call-to-action").css('display', 'block');
+            $(".content").removeClass("content-video");
+            $(".call-to-action").css('display', 'none');
+
         }
         else {
 
-            $(".content").removeClass("content-video");
-            $(".call-to-action").css('display', 'none');
+            $(".content").addClass("content-video");
+            $(".call-to-action").css('display', 'block');
         }
 
     }, false);
