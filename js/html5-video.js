@@ -39,8 +39,12 @@ $(document).ready(function () {
 
     video.addEventListener("pause", (event) => {
 
-        $(".content").addClass("content-video");
-        $(".call-to-action").css('display', 'block');
+        function delayContent() {
+            $(".content").addClass("content-video");
+            $(".call-to-action").css('display', 'block');
+        }
+        setTimeout(delayContent, 5000);
+
 
     });
 
