@@ -6,7 +6,7 @@ $(document).ready(function () {
     //$(document).addClass('content'); //Re-add before
 
     document.querySelector('video').addEventListener('ended', function () {
-        alert('Video has ended!');
+        //alert('Video has ended!');
 
         $(".content").addClass("content-video");
         $(".call-to-action").css('display', 'block');
@@ -14,7 +14,7 @@ $(document).ready(function () {
     }, false);
 
     $("video").click(function () {
-        alert('test');
+        //alert('test');
         $(".content").removeClass("content-video");
     });
 
