@@ -29,7 +29,7 @@ $(document).ready(function () {
         }, false);
     */
 
-    var videoTimeout = setTimeout(delayContent, 3000);
+
 
     video.addEventListener("play", (event) => {
 
@@ -51,14 +51,11 @@ $(document).ready(function () {
         setTimeout(delayContent, 5000);
         */
 
+        var videoTimeout = setTimeout(delayContent, 3000);
 
         function delayContent() {
             $(".content").addClass("content-video");
             $(".call-to-action").css('display', 'block');
-        }
-
-        function myStopFunction() {
-            clearTimeout(videoTimeout);
         }
 
 
