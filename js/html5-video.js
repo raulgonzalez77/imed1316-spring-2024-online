@@ -26,17 +26,7 @@ $(document).ready(function () {
 
     }, false);
 
-    $("video").click(function () {
-        //alert('test');
-        $(".content").removeClass("content-video");
-    });
 
-
-    $("button").click(function () {
-        //alert('test');
-        $(".content").addClass("content-video");
-        $(".call-to-action").css('display', 'block');
-    });
 
 
 
