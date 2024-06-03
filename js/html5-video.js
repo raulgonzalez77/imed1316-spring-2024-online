@@ -38,8 +38,8 @@ $(document).ready(function () {
 
     video.addEventListener("pause", (event) => {
 
-        $(".content").removeClass("content-video");
-        $(".call-to-action").css('display', 'none');
+        $(".content").addClass("content-video");
+        $(".call-to-action").css('display', 'block');
 
     });
 
