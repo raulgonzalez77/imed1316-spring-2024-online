@@ -22,22 +22,12 @@ $(document).ready(function () {
 
     video.addEventListener("playing", (event) => {
 
-        alert('test');
-
-        if (video.paused) {
-
-            $(".content").addClass("content-video");
-            $(".call-to-action").css('display', 'block');
-
-        }
-        else {
-
-            $(".content").removeClass("content-video");
-            $(".call-to-action").css('display', 'none');
-
-        }
+        $(".content").removeClass("content-video");
+        $(".call-to-action").css('display', 'none');
 
     }, false);
+
+
 
     document.querySelector('video').addEventListener('ended', function () {
         //alert('Video has ended!');
