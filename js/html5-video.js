@@ -29,6 +29,8 @@ $(document).ready(function () {
         }, false);
     */
 
+    var videoTimeout = setTimeout(delayContent, 3000);
+
     video.addEventListener("play", (event) => {
 
         $(".content").removeClass("content-video");
@@ -49,7 +51,6 @@ $(document).ready(function () {
         setTimeout(delayContent, 5000);
         */
 
-        const videoTimeout = setTimeout(delayContent, 3000);
 
         function delayContent() {
             $(".content").addClass("content-video");
