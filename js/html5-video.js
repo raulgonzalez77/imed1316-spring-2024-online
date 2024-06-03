@@ -20,14 +20,16 @@ $(document).ready(function () {
      }, false);
  */
 
-    /*
-        video.addEventListener("playing", (event) => {
-    
-            $(".content").removeClass("content-video");
-            $(".call-to-action").css('display', 'none');
-    
-        }, false);
-    */
+    /* */
+    video.addEventListener("playing", (event) => {
+
+        clearTimeout(videoTimeout);
+
+        $(".content").removeClass("content-video");
+        $(".call-to-action").css('display', 'none');
+
+    }, false);
+
 
 
 
