@@ -34,16 +34,31 @@ $(document).ready(function () {
         $(".content").removeClass("content-video");
         $(".call-to-action").css('display', 'none');
 
+        clearTimeout(videoTimeout);
+
     });
 
 
     video.addEventListener("pause", (event) => {
 
+        /*
         function delayContent() {
             $(".content").addClass("content-video");
             $(".call-to-action").css('display', 'block');
         }
         setTimeout(delayContent, 5000);
+        */
+
+        const videoTimeout = setTimeout(delayContent, 3000);
+
+        function delayContent() {
+            $(".content").addClass("content-video");
+            $(".call-to-action").css('display', 'block');
+        }
+
+        function myStopFunction() {
+            clearTimeout(videoTimeout);
+        }
 
 
     });
