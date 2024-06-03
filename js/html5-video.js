@@ -20,7 +20,7 @@ $(document).ready(function () {
 
 
 
-    document.querySelector('play').addEventListener('click', function () {
+    video.addEventListener("playing", (event) => {
 
         alert('test');
 
