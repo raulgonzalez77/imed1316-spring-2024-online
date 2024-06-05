@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         document.getElementById('input-1').value='Sociology';
 
-        var selectElem = document.querySelector('"#input-1"');
+        var selectElem = document.querySelector('#input-1');
         selectElem.dispatchEvent(new Event('change'));
 
     }    
