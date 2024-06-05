@@ -16,12 +16,21 @@ document.addEventListener('DOMContentLoaded', function () {
     const dirID = urlParams.get('dirID')
 
     if (dirID == 'Sociology') {
+
+
+setTimeout(function() {
+  
         alert('you chose sociology');
 
         document.getElementById('input-1').value='Sociology';
 
         var selectElem = document.querySelector('"#input-1"');
         selectElem.onchange();
+
+
+}, 5000);
+
+
 
     }    
 
