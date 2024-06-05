@@ -18,11 +18,11 @@ document.addEventListener('DOMContentLoaded', function () {
     if (dirID == 'Sociology') {
         alert('you chose sociology');
 
-        document.getElementById('myDirectory').value='Sociology';
+        document.getElementById('input-1').value='Sociology';
 
-        var selectElem = document.querySelector('select[name="myDirectory"]');
+        var selectElem = document.querySelector('"#input-1"');
         selectElem.onchange();
-        
+
     }    
 
 
