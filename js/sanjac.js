@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
         //selectElem.dispatchEvent(new Event('change'));
 
         var selEl = document.getElementById("input-1");
-        selEl.options[1].selected = true;
+        //selEl.options[1].selected = true;
         selEl.onchange();
 
     }    
