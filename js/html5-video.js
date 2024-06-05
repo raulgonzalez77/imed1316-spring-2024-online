@@ -81,7 +81,15 @@ $(document).ready(function () {
 
 
 
+    $(document).on('click', '.cierra', cierraOverlay);
 
+
+    function cierraOverlay() {
+
+            $(".content").removeClass("content-video");
+            $(".call-to-action").css('display', 'none');
+
+    }
 
 
 
