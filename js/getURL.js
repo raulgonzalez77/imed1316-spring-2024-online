@@ -19,6 +19,10 @@ document.addEventListener('DOMContentLoaded', function () {
         alert('you chose sociology');
 
         document.getElementById('myDirectory').value='Sociology';
+
+        var selectElem = document.querySelector('select[name="myDirectory"]');
+        selectElem.onchange();
+        
     }    
 
 
