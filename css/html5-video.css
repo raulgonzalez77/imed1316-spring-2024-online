@@ -42,8 +42,14 @@
 
 }
 
-.btn {
+.btn-outline-primary {
+    color: #0a2140 !important;
+    background-color: #ffffff !important;
+}
+
+.btn-outline-primary:hover {
     background-color: #0a2140 !important;
+    color: #ffffff !important;
 }
 
 .fa-circle-xmark {
