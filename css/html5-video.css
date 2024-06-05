@@ -45,13 +45,15 @@
 .btn-outline-primary:hover {
     color: #0a2140 !important;
     background-color: #ffffff !important;
-    border-color: #ffffff !important;
+    border-color: #0a2140 !important;
+    
 }
 
 .btn-outline-primary {
     background-color: #0a2140 !important;
     color: #ffffff !important;
-    border-color: #0a2140 !important;
+    border-color: #ffffff !important;
+    
 }
 
 .fa-circle-xmark {
