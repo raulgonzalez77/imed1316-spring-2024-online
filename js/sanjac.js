@@ -20,8 +20,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
         document.getElementById('input-1').value='Sociology';
 
-        var selectElem = document.querySelector('#input-1');
-        selectElem.dispatchEvent(new Event('change'));
+        //var selectElem = document.querySelector('#input-1');
+        //selectElem.dispatchEvent(new Event('change'));
+
+        var selEl = document.getElementById("input-1");
+        selEl.options[sociology].selected = true;
+        selEl.onchange();
 
     }    
 
