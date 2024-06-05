@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     
     
-    //////////////////getting parameters into variable values to pass to PHP page///////////////
+    //////////////////getting parameters into variable values to pass to web page///////////////
     const queryString = window.location.search;
     
     const urlParams = new URLSearchParams(queryString);
