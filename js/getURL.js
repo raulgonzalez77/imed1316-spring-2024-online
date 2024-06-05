@@ -17,7 +17,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (dirID == 'Sociology') {
         alert('you chose sociology');
+
+        changeSelected()
     }    
+
+
+    const changeSelected = (e) => {
+    const $select = document.querySelector('#myDirectory');
+    $select.value = 'Sociology'
+    };
 
     
 }, false);
