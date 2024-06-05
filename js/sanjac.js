@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const result = document.querySelector(".result");
 
         selectElement.addEventListener("change", (event) => {
+            alert('changed');
         selectElement.dispatchEvent(new Event('change'));
         });
 
