@@ -18,17 +18,26 @@ document.addEventListener('DOMContentLoaded', function () {
     if (dirID == 'Sociology') {
         alert('you chose sociology');
 
-        
+        /*
         var selEl = document.getElementById("input-1");
         document.getElementById('input-1').value='Sociology';
         //var selectElem = document.querySelector('#input-1');
         selEl.dispatchEvent(new Event('change'));
-
+        */
         
         //var selEl = document.getElementById("input-1");
         //document.getElementById('input-1').value='Sociology';
         //selEl.options[1].selected = true;
         //selEl.onchange();
+
+
+        const selectElement = document.querySelector("#input-1");
+        const result = document.querySelector(".result");
+
+        selectElement.addEventListener("change", (event) => {
+        selectElement.dispatchEvent(new Event('change'));
+        });
+
 
     }    
 
