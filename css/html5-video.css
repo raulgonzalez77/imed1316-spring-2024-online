@@ -48,8 +48,12 @@
 
 .fa-circle-xmark {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 30px;
     position: relative;
     top: 0px;
-    left: -20px;
+   /* left: -20px;*/
+}
+
+.fa-circle-xmark:hover {
+    cursor: pointer;
 }
