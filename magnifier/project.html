@@ -42,19 +42,19 @@ var evt = new Event(),
     imageData = [
         {
             title: 'One',
-            thumb: 'images/1.jpg',
+            thumb: 'images/thumbs/1.jpg',
             large: 'images/1.jpg',
             url: 'images/1.jpg'
         },
         {
             title: 'Two',
-            thumb: 'images/2jpg',
+            thumb: 'images/thumbs/2jpg',
             large: 'images/2.jpg',
             url: 'images/2.jpg'
         },
         {
             title: 'Three',
-            thumb: 'images/3.jpg',
+            thumb: 'images/thumbs/3.jpg',
             large: 'images/3.jpg',
             url: 'images/3.jpg'
         }
@@ -67,24 +67,7 @@ var evt = new Event(),
         previewText: document.getElementById('gallery-preview-title')
     });
 
-m.attach({
-    thumb: '#thumb-1',
-    zoomable: false
-});
 
-m.attach({
-    thumb: '#thumb-2',
-    large: 'images/thumbs/2.jpg',
-    zoom: 3
-});
-
-m.attach({
-    thumb: '#thumb-3',
-    large: 'images/thumbs/3.jpg',
-    largeWrapper: 'preview1',
-    zoom: 3,
-    zoomable: false
-});
 
 
 </script>
