@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 setTimeout(function() {
   
-        alert('you chose sociology');
+        //alert('you chose sociology');
 
         document.getElementById('input-1').value='Sociology';
 
